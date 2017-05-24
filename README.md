@@ -25,7 +25,9 @@
 	+ 로컬에서 테스트하기 위해 <pre>java pack.MainServer 127.0.0.1 2000</pre> 을 입력한다.
 	+ 서버 호스트(Host)와 포트(Port)는 바꿀 수 있다.
 	+ 다음과 같은 출력이 나타나면 구동에 성공한 것이다.
+<pre>
 	s_ip:s_port - /127.0.0.1:2000
 	bind success
+</pre>
 
 3. 클라이언트(Client) 구동
