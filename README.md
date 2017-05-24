@@ -24,12 +24,11 @@
 	+ 커맨드 입력창을 열고 <pre>.../UDP-based-FTP-Server/bin</pre> 로 이동한다. (cd 명령어)
 	+ 로컬에서 테스트하기 위해 <pre>java pack.MainServer 127.0.0.1 2000</pre> 을 입력한다.
 	+ 서버 호스트와 포트는 바꿀 수 있다.
-	+ 다음과 같은 출력이 나타나면 구동에 성공한 것이다.
-<pre>
-	s_ip:s_port - /127.0.0.1:2000
-	bind success
-</pre>
-	+ 이때, 서버는 클라이언트의 접속을 기다리는 상태가 된다.
+	+ 다음과 같은 출력이 나타나면 구동에 성공한 것이다. 이때, 서버는 클라이언트의 접속을 기다리는 상태가 된다.
+	<pre>
+		s_ip:s_port - /127.0.0.1:2000
+		bind success
+	</pre>
 
 3. 클라이언트 구동
 	+ 마찬가지로 커맨드에서 <pre>.../UDP-based-FTP-Client/bin</pre> 로 이동한다.
@@ -38,3 +37,14 @@
 
 4. 전송받은 파일 확인
 	+ 디렉토리 <pre>.../UDP-based-FTP-Server</pre> 에서 landscape.jpg 가 잘 저장되었는지 확인한다.
+
+## 동작 설명
+
+1. 클라이언트 측 (코드참조 필수)
+	1. 클라이언트는 서버에 접속을 시도하고, 성공시 파일정보를 전송합니다.
+	<pre>
+		c_ip:c_port - /127.0.0.1:3000
+		s_ip:s_port - /127.0.0.1:2000
+		bind success
+		sent file name: ../landscape.jpg, file
+	</pre>
