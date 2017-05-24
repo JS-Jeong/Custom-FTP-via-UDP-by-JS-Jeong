@@ -1,13 +1,15 @@
-# Custom-FTP-via-UDP-by-JS-Jeong
-## What is this?
-### This is an assignment of Wireless Network lecture, created by Team below.
 
-* Team Members
-+ 2012161148 조지현 - server
-+ 2012161154 천지훈 - server
-+ 2014161124 장연주 - client
-+ 2014161137 정진서 - client
+# UDP-based-FTP
 
-### Department of Information and Communication Engineering
-### KOREATECH (KUT: Korea University of Technology and Education)
-### Republic of Korea
+## UDP 기반 FTP
+
+### 무선네트워크 강의 과제 - 2017.5.25
+### 팀 구성원
++ 2012161148 조지현 - 서버
++ 2012161154 천지훈 - 서버
++ 2014161124 장연주 - 클라이언트
++ 2014161137 정진서 - 클라이언트
+
+## 목적
+
+### TCP 슬라이딩 윈도우를 UDP 에 구현하여 신뢰성있는 파일전송을 구현.
