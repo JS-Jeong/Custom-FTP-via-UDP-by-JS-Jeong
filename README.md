@@ -21,6 +21,6 @@
 	+ 본 애플리케이션은 자바(Java) 언어로 작성되었으므로 자바(Java)를 먼저 설치한다.
 
 2. 서버(Server) 구동
-	+커맨드 입력창을 열고 <pre>.../UDP-based-FTP-Server/bin</pre>로 이동한다.
+	+ 커맨드 입력창을 열고 <pre>.../UDP-based-FTP-Server/bin</pre>로 이동한다.
 
 3. 클라이언트(Client) 구동
