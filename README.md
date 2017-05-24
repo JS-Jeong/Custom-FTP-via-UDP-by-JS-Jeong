@@ -21,6 +21,11 @@
 	+ 본 애플리케이션은 자바(Java) 언어로 작성되었으므로 자바(Java)를 먼저 설치한다.
 
 2. 서버(Server) 구동
-	+ 커맨드 입력창을 열고 <pre>.../UDP-based-FTP-Server/bin</pre>로 이동한다.
+	+ 커맨드 입력창을 열고 <pre>.../UDP-based-FTP-Server/bin</pre> 로 이동한다. (cd 명령어)
+	+ 로컬에서 테스트하기 위해 <pre>java pack.MainServer 127.0.0.1 2000</pre> 을 입력한다.
+	+ 서버 호스트(Host)와 포트(Port)는 바꿀 수 있다.
+	+ 다음과 같은 출력이 나타나면 구동에 성공한 것이다.
+	s_ip:s_port - /127.0.0.1:2000
+	bind success
 
 3. 클라이언트(Client) 구동
